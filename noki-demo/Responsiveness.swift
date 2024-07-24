@@ -6,3 +6,10 @@
 //
 
 import Foundation
+import SwiftUI
+
+struct Responsiveness{
+    static let  screenWidth=UIScreen.main.bounds.width
+    static let screenHeight=UIScreen.main.bounds.height
+
+}

@@ -8,8 +8,18 @@
 import SwiftUI
 
 struct Addpatient: View {
+    @EnvironmentObject var dataManager:Datamanager
+    @State var newPatient=""
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            TextField("Add patient",text:$newPatient)
+            
+            Button(action: {
+                dataManager.addPatient(patientName: newPatient)
+            }){
+                Text("Save")
+            }
+        }
     }
 }
 

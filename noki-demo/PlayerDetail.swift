@@ -8,11 +8,17 @@
 import SwiftUI
 
 struct PlayerDetail: View {
+    var name:String
+    var age:Int
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            Text(name).font(.custom(FontStyle.NokiBold,size: 32))
+            Text("\(age)").font(.custom(FontStyle.NokiBold,size: 32))
+        }
+        
     }
 }
 
 #Preview {
-    PlayerDetail()
+    PlayerDetail(name:"Mahish", age: 27)
 }

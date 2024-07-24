@@ -8,11 +8,23 @@
 import SwiftUI
 
 struct Pateints: View {
+    @EnvironmentObject var dataManager:Datamanager
+    @State private var showPopup=false
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView{
+            List(dataManager.pateints,id:\.id){ patient in
+                Text(patient.name)
+            }.navigationTitle("Patients").navigationBarItems(trailing:Button(action:{
+                showPopup.toggle()
+            }, label:{
+                Image(systemName: "plus")
+            })).sheet(isPresented: $showPopup){
+                Addpatient()
+            }
+        }
     }
 }
 
 #Preview {
-    Pateints()
+    Pateints().environmentObject(Datamanager())
 }

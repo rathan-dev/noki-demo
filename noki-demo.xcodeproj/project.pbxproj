@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C407885F2C4F76BE002B8399 /* Responsiveness.swift in Sources */ = {isa = PBXBuildFile; fileRef = C407885E2C4F76BE002B8399 /* Responsiveness.swift */; };
+		C40788622C4F821E002B8399 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40788612C4F821E002B8399 /* Player.swift */; };
+		C40788642C4F8438002B8399 /* PlayerDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40788632C4F8438002B8399 /* PlayerDetail.swift */; };
+		C40788662C4FD59A002B8399 /* Localstorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40788652C4FD599002B8399 /* Localstorage.swift */; };
 		C40DECA32C4E1E3A005502AB /* noki_demoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40DECA22C4E1E3A005502AB /* noki_demoApp.swift */; };
 		C40DECA52C4E1E3A005502AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40DECA42C4E1E3A005502AB /* ContentView.swift */; };
 		C40DECA72C4E1E3C005502AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C40DECA62C4E1E3C005502AB /* Assets.xcassets */; };
@@ -19,6 +23,14 @@
 		C40DECD32C4E2821005502AB /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C40DECCF2C4E26F2005502AB /* Nunito-Regular.ttf */; };
 		C40DECD42C4E2823005502AB /* Nunito-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C40DECCE2C4E26F2005502AB /* Nunito-SemiBold.ttf */; };
 		C40DECD92C4E5BB6005502AB /* FontStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40DECD82C4E5BB6005502AB /* FontStyle.swift */; };
+		C40DECDB2C4E8265005502AB /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40DECDA2C4E8265005502AB /* Home.swift */; };
+		C4940EE82C50D3B90036526C /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = C4940EE72C50D3B90036526C /* FirebaseAuth */; };
+		C4940EEA2C50D3B90036526C /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = C4940EE92C50D3B90036526C /* FirebaseFirestore */; };
+		C4940EEC2C50D4260036526C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C4940EEB2C50D4260036526C /* GoogleService-Info.plist */; };
+		C4940EEE2C50D5C50036526C /* Pateints.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4940EED2C50D5C50036526C /* Pateints.swift */; };
+		C4940EF02C50E0920036526C /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4940EEF2C50E0920036526C /* Patient.swift */; };
+		C4940EF22C50E3780036526C /* Datamanager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4940EF12C50E3780036526C /* Datamanager.swift */; };
+		C4940EF42C50EB130036526C /* Addpatient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4940EF32C50EB130036526C /* Addpatient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +51,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C407885E2C4F76BE002B8399 /* Responsiveness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Responsiveness.swift; sourceTree = "<group>"; };
+		C40788612C4F821E002B8399 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		C40788632C4F8438002B8399 /* PlayerDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetail.swift; sourceTree = "<group>"; };
+		C40788652C4FD599002B8399 /* Localstorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localstorage.swift; sourceTree = "<group>"; };
 		C40DEC9F2C4E1E3A005502AB /* noki-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "noki-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C40DECA22C4E1E3A005502AB /* noki_demoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = noki_demoApp.swift; sourceTree = "<group>"; };
 		C40DECA42C4E1E3A005502AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +72,12 @@
 		C40DECD52C4E2DF0005502AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		C40DECD62C4E2F1B005502AB /* Nunito-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Italic.ttf"; sourceTree = "<group>"; };
 		C40DECD82C4E5BB6005502AB /* FontStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontStyle.swift; sourceTree = "<group>"; };
+		C40DECDA2C4E8265005502AB /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		C4940EEB2C50D4260036526C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C4940EED2C50D5C50036526C /* Pateints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pateints.swift; sourceTree = "<group>"; };
+		C4940EEF2C50E0920036526C /* Patient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Patient.swift; sourceTree = "<group>"; };
+		C4940EF12C50E3780036526C /* Datamanager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datamanager.swift; sourceTree = "<group>"; };
+		C4940EF32C50EB130036526C /* Addpatient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Addpatient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +85,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4940EE82C50D3B90036526C /* FirebaseAuth in Frameworks */,
+				C4940EEA2C50D3B90036526C /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +107,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C40788602C4F81F6002B8399 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C40788612C4F821E002B8399 /* Player.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		C40DEC962C4E1E3A005502AB = {
 			isa = PBXGroup;
 			children = (
@@ -107,13 +139,23 @@
 		C40DECA12C4E1E3A005502AB /* noki-demo */ = {
 			isa = PBXGroup;
 			children = (
+				C40788602C4F81F6002B8399 /* Models */,
 				C40DECD72C4E3172005502AB /* Resources */,
 				C40DECD52C4E2DF0005502AB /* Info.plist */,
 				C40DECA22C4E1E3A005502AB /* noki_demoApp.swift */,
 				C40DECA42C4E1E3A005502AB /* ContentView.swift */,
+				C4940EEF2C50E0920036526C /* Patient.swift */,
+				C4940EF12C50E3780036526C /* Datamanager.swift */,
 				C40DECA62C4E1E3C005502AB /* Assets.xcassets */,
+				C4940EEB2C50D4260036526C /* GoogleService-Info.plist */,
 				C40DECA82C4E1E3C005502AB /* Preview Content */,
 				C40DECD82C4E5BB6005502AB /* FontStyle.swift */,
+				C40DECDA2C4E8265005502AB /* Home.swift */,
+				C407885E2C4F76BE002B8399 /* Responsiveness.swift */,
+				C40788652C4FD599002B8399 /* Localstorage.swift */,
+				C40788632C4F8438002B8399 /* PlayerDetail.swift */,
+				C4940EF32C50EB130036526C /* Addpatient.swift */,
+				C4940EED2C50D5C50036526C /* Pateints.swift */,
 			);
 			path = "noki-demo";
 			sourceTree = "<group>";
@@ -178,6 +220,10 @@
 			dependencies = (
 			);
 			name = "noki-demo";
+			packageProductDependencies = (
+				C4940EE72C50D3B90036526C /* FirebaseAuth */,
+				C4940EE92C50D3B90036526C /* FirebaseFirestore */,
+			);
 			productName = "noki-demo";
 			productReference = C40DEC9F2C4E1E3A005502AB /* noki-demo.app */;
 			productType = "com.apple.product-type.application";
@@ -250,6 +296,9 @@
 				Base,
 			);
 			mainGroup = C40DEC962C4E1E3A005502AB;
+			packageReferences = (
+				C4940EE62C50D3B90036526C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = C40DECA02C4E1E3A005502AB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -272,6 +321,7 @@
 				C40DECA72C4E1E3C005502AB /* Assets.xcassets in Resources */,
 				C40DECD22C4E281F005502AB /* Nunito-Bold.ttf in Resources */,
 				C40DECD12C4E281B005502AB /* Nunito-Black.ttf in Resources */,
+				C4940EEC2C50D4260036526C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,7 +348,16 @@
 			files = (
 				C40DECA52C4E1E3A005502AB /* ContentView.swift in Sources */,
 				C40DECA32C4E1E3A005502AB /* noki_demoApp.swift in Sources */,
+				C407885F2C4F76BE002B8399 /* Responsiveness.swift in Sources */,
+				C40788642C4F8438002B8399 /* PlayerDetail.swift in Sources */,
+				C40DECDB2C4E8265005502AB /* Home.swift in Sources */,
+				C40788662C4FD59A002B8399 /* Localstorage.swift in Sources */,
+				C40788622C4F821E002B8399 /* Player.swift in Sources */,
 				C40DECD92C4E5BB6005502AB /* FontStyle.swift in Sources */,
+				C4940EEE2C50D5C50036526C /* Pateints.swift in Sources */,
+				C4940EF42C50EB130036526C /* Addpatient.swift in Sources */,
+				C4940EF02C50E0920036526C /* Patient.swift in Sources */,
+				C4940EF22C50E3780036526C /* Datamanager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -624,6 +683,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C4940EE62C50D3B90036526C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.29.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C4940EE72C50D3B90036526C /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C4940EE62C50D3B90036526C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		C4940EE92C50D3B90036526C /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C4940EE62C50D3B90036526C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C40DEC972C4E1E3A005502AB /* Project object */;
 }
